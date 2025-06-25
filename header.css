@@ -1,0 +1,97 @@
+.navbar {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   background-color: rgb(13, 17, 23);
+   /* border: 1px solid gray; */
+   padding: 15px;
+   font-size: 16px;
+
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+}
+
+.navbar-container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+
+   max-width: 1270px;
+   margin: 0 auto;
+   width: 100%;
+   padding: 0 20px;
+}
+
+.navbar-left {
+   display: flex;
+   align-items: center;
+   font-size: 16px;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 0.648);
+   gap: 25px;
+}
+
+.vs-header-container {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.vs-header {
+   font-size: 20px;
+   font-weight: 600;
+   color: white;
+   text-decoration: none;
+}
+
+.navbar-left-element:hover {
+   color: white;
+   cursor: pointer;
+}
+
+.navbar-right {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+
+.navbar-right img {
+   padding: 5px;
+}
+
+.navbar-right img:hover {
+   cursor: pointer;
+   background-color: rgb(53, 52, 52);
+   padding: 5px;
+   border-radius: 2px;
+}
+
+.download-button {
+   background-color: #0069B9;
+   font-weight: 600;
+   font-size: 16px;
+   color: white;
+   border-radius: 5px;
+   border: 1px solid transparent;
+   height: 35px;
+   width: 120px;
+}
+
+.search-field {
+   color: white;
+   background-color: rgba(30, 28, 28, 0.062);
+   border: 1px solid gray;
+   border-radius: 5px;
+   height: 32px;
+   padding-left: 10px;
+   padding-right: 10px;
+   width: 200px;
+}
+
+.search-field::placeholder {
+   font-size: 16px;
+   align-items: center;
+}
